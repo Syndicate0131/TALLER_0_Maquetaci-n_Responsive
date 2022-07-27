@@ -1,0 +1,14 @@
+body{
+    display: flex;
+    margin: 0;
+}
+
+nav{
+    justify-content: space-around;
+    background-color:#17181C;
+    text-align: center;
+  }
+  div.menu{
+    float: right;
+  }
+
