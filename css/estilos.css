@@ -25,3 +25,23 @@ body{
     font-family: 'Marcellus', serif;
 }
 
+nav{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color: var(--negro);
+  font-family: 'Marcellus', serif;
+  font-size: 1.3em;
+  padding: 1rem;
+}
+.item{
+  padding: 1rem;
+  }
+  nav a{
+      color: var(--blanco);
+      text-decoration: none;
+  }
+  .logo img{
+      height: 3rem;
+  }
+  
