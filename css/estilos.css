@@ -44,4 +44,178 @@ nav{
   .logo img{
       height: 3rem;
   }
-  
+  .msg{    
+    background: url(../img/slide1.jpg);
+    height: 40rem;
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-end;
+    font-size: 1.5rem;
+  }
+  .msg h1{
+    color: white;
+    margin-bottom: 3rem;
+
+background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(0,0,0,1) 0%, rgba(0,0,0,0.6881127450980392) 0%, rgba(178,179,179,0.15309873949579833) 91%);
+  }
+
+
+  .desc{
+    color: var(--blanco);
+    height: 30rem;
+    display: flex;
+    justify-content: space-around;
+    color: var(--negro2);
+  }
+
+  .desc h3{
+    margin: 5%;
+    width: 60rem;
+    }
+
+  .logod{
+margin: 5%;
+  }
+
+  #features{
+    background: url(../img/bg-features.png);
+    color: var(--fondo);
+    padding-top: 1rem;
+    height: 15rem;
+    }
+ 
+.features-title{
+    background-color: rgba(0,0,0,0.35);
+    text-align: center;
+    padding: 0.5rem;
+    font-size: 1.5em;
+    margin-bottom: 1rem;
+}
+
+.features-description{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.feature{
+    width: 25%;
+    min-width: 180px;
+    max-width: 230px;
+    margin: 0.8rem;
+    padding: 1rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-radius: 5px;
+}
+ 
+.feature i{
+    font-size: 2.2em;
+    margin-bottom: 1.5rem;
+}
+
+
+.feature-blue{
+    background-color: #00325eae;
+}
+ 
+.feature-black{
+    background-color: rgba(0,0,0,0.59);
+}
+
+.ubi{
+  height: 10rem;
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+  font-size: 2rem;
+}
+.mapa{
+  height: 30rem;
+  background: url(../img/MapaIndex.png);
+  margin: 1rem;
+}
+.ubi2{
+  height: 5rem;
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+  font-size: 1.3rem;
+  margin-bottom: 1rem;
+}
+.ubi2 h2{
+  border-bottom:2px solid var(--azuloscuro);
+}
+hr{
+  color: var(--negro2);
+}
+.nues{
+  height: 10rem;
+  display: flex;
+  background-color: var(--negro2);
+  justify-content: center;
+  align-items: center;
+  font-size: 1.5rem;
+}
+.nues h1{
+  color: var(--blanco);
+}
+
+.opinion{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+.opisep {
+display: flex;
+justify-content: center;
+color: var(--negro);
+font-size: 4rem;
+margin-top: -3rem;
+margin-bottom: 3rem;
+}
+
+.nue1{
+  background: url(../img/opi1.png);
+  height: 16rem;
+  width: 25rem;
+  margin: 3rem;
+  margin-top: -3rem;
+}
+.nue2{
+  background: url(../img/opi2.png);
+  height: 16rem;
+  width: 25rem;
+  margin: 3rem;
+  margin-top: -3rem;
+}
+
+footer{
+  display: flex;
+  background-color:var(--negro2);
+  color: var(--blanco);
+  font-size: 1.2rem;
+  justify-content: space-around;
+
+}
+.fi1{
+  margin: 4rem;
+  width: 20rem;
+  height: 20 rem;
+}
+.fi1 i{
+  margin: 1rem;
+}
+.fi2{
+  margin: 4rem;
+  width: 20rem;
+  height: 20 rem;
+}
+.fi2 p{
+  margin-bottom: 5rem;
+}
+
+
+
