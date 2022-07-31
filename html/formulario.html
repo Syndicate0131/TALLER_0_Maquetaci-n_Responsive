@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <link rel="stylesheet" href="../css/formulario.css">
+    <script src="https://kit.fontawesome.com/6131ecdde6.js" crossorigin="anonymous"></script>
+    <title>Formulario</title>
+</head>
+<body>
+<main>
+<nav>
+<img src="../img/Hotelia horizontal blanco.svg">
+<h1>Eres más que</h1>
+<h1>Bienvenido</h1>
+</nav>
+<div class="dashcont">
+    <div class="tittle">
+        <h2>Regístrate</h2>
+    </div>
+    <div class="cont">
+        <div class="cont1">
+            <label for="tipdoc"><h2>Tipo de documento</h2></label>
+            <select id="tipdoc" name="tipdoc">
+              <option value="cc">Cedula Ciudadania</option>
+              <option value="ti">Tarjeta Identidad</option>
+              <option value="ext">Cedula Extrangeria</option>
+            </select>
+            <br>
+                  <label for="name"><h2 >Nombres</h2></label>
+                  <input type="text" id="name" placeholder="Digite su nombre"/>
+            <br>
+            <label for="date"><h2 >Fecha Nacimiento</h2></label>
+            <input type="date" id="date" />
+            <br>
+            <label for="name"><h2 >Nombres</h2></label>
+            <input type="text" id="name" placeholder="Digite su nombre"/>
+            <br>
+            <label for="name"><h2 >Nombres</h2></label>
+            <input type="text" id="name" placeholder="Digite su nombre"/>
+            <br>
+            <label for="name"><h2 >Nombres</h2></label>
+            <input type="text" id="name" placeholder="Digite su nombre"/>
+            <br>
+        </div>
+        <div class="cont2">
+            <label for="numdoc"><h2 >Numero de Documento</h2></label>
+            <input type="text" id="numdoc" placeholder="Ej.1234567890"/>
+            <br>
+            <label for="ape"><h2 >Apellido</h2></label>
+            <input type="text" id="ape" placeholder="Digite sus apellidos"/>
+            <br>
+            <h2 class="gener">Genero</h2>
+            <div class="gen">
+            <input type="radio"  value="1"><h2>Mujer</h2>
+            <input type="radio"  value="2"><h2>Hombre</h2>
+            <input type="radio"  value="3"><h2>Otro</h2>
+          </div>
+          <label for="number"><h2 >Numero de Contacto</h2></label>
+          <input type="text" id="number" placeholder="Ej. 3100000000"/>
+          <br>
+          <label for="foto"><h2 >Foto</h2></label>
+          <input type="file" id="foto" class="foto"/>
+          <label for="password"><h2 >Confirmar Contraseña</h2></label>
+          <br>
+          <input type="password" id="password"/>
+        </div>
+        </div>
+        <div class="tc">
+            <a href=""><h1>Acepto Terminos y Condiciones</h1></a>
+        </div>
+        <div class="but">
+            <button><h2>Ingresar</h2> </button>
+        </div>
+    </div>
+</main>
+</body>
+</html>
