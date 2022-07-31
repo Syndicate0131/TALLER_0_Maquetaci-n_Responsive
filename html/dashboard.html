@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <link rel="stylesheet" href="../css/dashboard.css">
+    <script src="https://kit.fontawesome.com/6131ecdde6.js" crossorigin="anonymous"></script>
+    <title>Dashboard</title>
+</head>
+<body>
+<nav class="navvert">
+<div class="navvert1">
+    <img src="../img/Hotelia horizontal blanco.svg">
+    <h2>Angie Vargas</h2>
+    <p>angievargas2@gmail.com</p>
+</div>
+<div class="navvert2">
+<h2> <i class="fa-solid fa-bed"></i> Habitaciones</h2>
+<h2 class="navd1"><i class="fa-solid fa-bell-concierge"></i> Reservas</h2>
+<h2> <i class="fa-solid fa-bed"></i> Habitaciones</h2>
+<h2><i class="fa-solid fa-bell-concierge"></i> Habitaciones</h2>
+</div>
+<div class="navvert3">
+<h2 class="navd2"><i class="fa-solid fa-arrow-right-from-bracket"></i> Habitaciones</h2>
+</div>
+</nav>
+<div class="dashmain">
+<div class="dashcont">
+    <div class="tittle">
+        <h2>Bienvenido, Angie Vargas</h2>
+    </div>
+    <div class="cont">
+        <div class="cont1">
+            <img src="../img/FotoDashboard.jpg">
+            <div>
+               <h1><i class="fa-solid fa-file-arrow-up"></i></h1>
+               <h1></i><i class="fa-solid fa-upload"></i></h1>
+            </div>
+            <button><h2>Cambiar Contraseña</h2> </button>
+        </div>
+        <div class="cont2">
+            <label for="tipdoc"><h2>Tipo de documento</h2></label>
+            <select id="tipdoc" name="tipdoc">
+              <option value="cc">Cedula Ciudadania</option>
+              <option value="ti">Tarjeta Identidad</option>
+              <option value="ext">Cedula Extrangeria</option>
+            </select>
+                  <label for="name"><h2 >Nombres</h2></label>
+                  <input type="text" id="name" placeholder="Digite su nombre"/>
+                  <label for="date"><h2 >Fecha Nacimiento</h2></label>
+                  <input type="date" id="date" placeholder="Digite su nombre"/>
+                  <h2 class="gener">Genero</h2>
+                  <div class="gen">
+                  <input type="radio"  value="1"><h2>Mujer</h2>
+                  <input type="radio"  value="2"><h2>Hombre</h2>
+                  <input type="radio"  value="3"><h2>Otro</h2>
+                </div>
+                <br>
+                  <label for="email"><h2 >Email</h2></label>
+                  <input type="email" id="email" placeholder="ejemplo@correo.com"/>
+                  <br>
+                  <button><h2>Actualizar</h2> </button>
+                  <br>
+                  <label for="password"><h2 >Contraseña</h2></label>
+                  <br>
+                  <input type="password" id="password"/>
+                  <br>
+                  <button><h2>Cambiar</h2> </button>
+        </div>
+        <div class="cont3">
+            <label for="numdoc"><h2 >Numero Documento</h2></label>
+            <input type="text" id="numdoc" placeholder="Ej.1234567890"/>
+            <br>
+            <label for="ape"><h2 >Apellido</h2></label>
+            <input type="text" id="ape" placeholder="Digite sus apellidos"/>
+            <br>
+            <label for="pais"><h2 >Pais de Origen</h2></label>
+            <input type="text" id="pais" placeholder="Ej. Colombia"/>
+            <br>
+            <label for="number"><h2 >Numero de Contacto</h2></label>
+            <input type="text" id="number" placeholder="Ej. 3100000000"/>
+            <label  class="confirm" for="password"><h2 >Confirmar Contraseña</h2></label>
+            <br>
+            <input type="password" id="password"/>
+        </div>
+            </div>
+    </div>
+    </div>
+</div>
+</div>
+</body>
+</html>
