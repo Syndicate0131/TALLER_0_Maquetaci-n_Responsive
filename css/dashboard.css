@@ -137,7 +137,8 @@ font-size: 2rem;
     margin-top: 1rem;
 }
 
-.cont1 button{
+.cont1 a{
+    text-align: center;
     display: flex;
     justify-content:center;
     background-color: var(--negro);
@@ -175,7 +176,7 @@ font-size: 2rem;
 .gen input{
     color: var(--azuloscuro);
 }
-.cont2 button{
+.cont2 a{
     display: flex;
     justify-content:center;
     align-items: center;
@@ -189,4 +190,7 @@ font-size: 2rem;
 }
 .confirm{
     margin-top: 9rem;
+}
+a{
+    text-decoration: none;
 }

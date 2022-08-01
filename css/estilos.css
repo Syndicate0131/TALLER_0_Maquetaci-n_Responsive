@@ -216,7 +216,9 @@ footer{
 .fi2 p{
   margin-bottom: 5rem;
 }
-
+a{
+  text-decoration: none;
+}
 
 
 
