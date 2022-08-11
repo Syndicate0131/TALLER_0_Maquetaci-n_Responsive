@@ -3,23 +3,23 @@
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <link rel="stylesheet" href="../css/formulario.css">
+    <link rel="stylesheet" href="../css/estilos.css">
     <script src="https://kit.fontawesome.com/6131ecdde6.js" crossorigin="anonymous"></script>
     <title>Formulario</title>
 </head>
 <body>
-<main>
+<main class="form-main">
 <nav>
 <img src="../img/Hotelia horizontal blanco.svg">
 <h1>Eres más que</h1>
 <h1>Bienvenido</h1>
 </nav>
-<div class="dashcont">
-    <div class="tittle">
+<div class="form-dashcont">
+    <div class="form-tittle">
         <h2>Regístrate</h2>
     </div>
-    <div class="cont">
-        <div class="cont1">
+    <div class="form-cont">
+        <div class="form-cont1">
             <label for="tipdoc"><h2>Tipo de documento</h2></label>
             <select id="tipdoc" name="tipdoc">
               <option value="cc">Cedula Ciudadania</option>
@@ -43,15 +43,15 @@
             <input type="password" id="password"/>
             <br>
         </div>
-        <div class="cont2">
+        <div class="form-cont2">
             <label for="numdoc"><h2 >Numero de Documento</h2></label>
             <input type="text" id="numdoc" placeholder="Ej.1234567890"/>
             <br>
             <label for="ape"><h2 >Apellido</h2></label>
             <input type="text" id="ape" placeholder="Digite sus apellidos"/>
             <br>
-            <h2 class="gener">Genero</h2>
-            <div class="gen">
+            <h2 class="form-gener">Genero</h2>
+            <div class="form-gen">
             <input type="radio"  value="1"><h2>Mujer</h2>
             <input type="radio"  value="2"><h2>Hombre</h2>
             <input type="radio"  value="3"><h2>Otro</h2>
@@ -60,18 +60,18 @@
           <input type="text" id="number" placeholder="Ej. 3100000000"/>
           <br>
           <label for="foto"><h2 >Foto</h2></label>
-          <input type="file" id="foto" class="foto"/>
+          <input type="file" id="foto" class="form-foto"/>
           <label for="password"><h2 >Confirmar Contraseña</h2></label>
           <br>
           <input type="password" id="password"/>
         </div>
         </div>
-        <div class="tc">
+        <div class="form-tc">
             <a href="#miModal"><h1>Abrir Terminos y Condiciones</h1></a>
-            <div id="miModal" class="modal">
-                <div class="modal-contenido">
-                    <h2 class="top-modal">Términos y condiciones</h2>
-                    <div class="bottom-modal">
+            <div id="miModal" class="form-modal">
+                <div class="form-modal-contenido">
+                    <h2 class="form-top-modal">Términos y condiciones</h2>
+                    <div class="form-bottom-modal">
 
                         <p>Estos Términos del Servicio reflejan la forma 
                             de trabajar de Google como empresa, las 
@@ -94,7 +94,7 @@
                 </div>
             </div>
         </div>
-        <div class="but">
+        <div class="form-but">
             <a href="login.html"><h2>Ingresar</h2> </a>
         </div>
     </div>
