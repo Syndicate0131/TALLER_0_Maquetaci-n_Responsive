@@ -484,7 +484,7 @@ margin-bottom: 3rem;
   margin: 3rem;
   margin-top: -3rem;
 }
-/*----------------------------------------------------------------Footer----------------------------------------------------------------------------------------------*/
+/*---------------Footer------------*/
 
 .index-fot1{
   display: flex;
@@ -523,7 +523,217 @@ margin-bottom: 3rem;
 }
 
 /*----------------------------------------------------------------Dashboard----------------------------------------------------------------*/
-@media screen and (min-width: 1024px){
+
+
+
+
+
+
+
+@media screen and (max-width: 1000px){
+  /*Resolución tablet*/
+  @media screen and (min-width: 300px){
+  
+    .dashbody{
+      display: flex;
+    }
+  
+    .dash-navvertv2{
+        width: 10rem;
+        font-size: 2rem;
+    }
+    .dash-navvert{
+      display: none;
+  }
+    .dash-navvert1{
+        display: flex;
+        flex-direction: column;
+        background: url(../img/Group\ 200.svg);
+        font-size: 0.9rem;
+    }
+    .dash-navvert1 img{
+        margin: 2rem;
+        width: 5rem;
+        height: 5rem;
+        align-self: center;
+    }
+    .dash-navvert1 h2{
+        color: var(--blanco);
+        align-self: center;
+    }
+    .dash-navvert1 p{
+        color: var(--blanco);
+        align-self: center;
+        margin-bottom: 3rem;
+    }
+    .dash-navvert2{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        height: 111.5rem;
+        background-color:var(--negro);
+        color:var(--blanco);
+
+    }
+    .dash-navvert2 h2{
+      margin: 0;
+    margin-top: 5rem;
+    }
+    
+    .dash-navd1{
+        margin-left: -5rem;
+    }
+    
+    .dash-navvert3 h2{
+      margin-left: 3rem;
+      margin-top: -20rem;
+    }
+    
+    .dash-navd2{
+    margin-top: -4rem; 
+    color: var(--blanco);
+    font-size: 2rem;
+    }
+    
+    .dash-dashmain{
+        background: url(../img/FondoDashboard.jpg);
+    }
+    
+    .dash-dashcont{
+      display: none;
+    }
+
+    .dash-dashcontv2{
+      display: flex;
+      align-items: center;
+      flex-direction: column;
+        background-color: #cfcfcfe3;
+        margin: 3rem;
+        margin-right: 2rem;
+        width: 50rem;
+        height: auto;
+        border-radius: 10px;
+    }
+    .dash-tittle h2{
+       font-size: 2.4rem;
+       margin-left: auto;
+
+    }
+    .dash-cont{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        margin-top: 1rem;
+    }
+    
+    .dash-cont1{
+        margin-top: 2rem;
+        width: auto;
+    }
+
+    .dash-cont2{
+        display: flex;
+        flex-direction: column;
+        margin-top: 1rem;
+        width: auto;
+
+    }
+    .dash-cont3{
+        display: flex;
+        flex-direction: column;
+        width: 35rem;
+        height: 36rem;
+    }
+    .dash-cont1 img{
+        margin-left: 7rem;
+        
+        width: 16rem;
+    }
+    .dash-cont1 div{
+        display: flex;
+        justify-content:space-around;
+        background-color: var(--azuloscuro);
+        align-self: center;
+        color: var(--blanco);
+        width: 16rem;
+        margin-left: 7rem;
+        font-size: 1.5rem;
+        margin-top: 1rem;
+    }
+    
+    .dash-cont1 a{
+        text-align: center;
+        display: flex;
+        justify-content:center;
+        background-color: var(--negro);
+        font-size: 1.2rem;
+        width: 16rem;
+        margin-left: 7rem;
+        margin-top: 3rem;
+        border: 0px;
+        border-radius: 5px;
+        color: var(--blanco);
+    }
+    .dash-cont input{
+        border-radius: 3px;
+        border: 0px;
+        height: 2.2rem;
+        font-size: 1.2rem;
+        margin-bottom: 1rem;
+    }
+    .dash-cont select{
+        border-radius: 3px;
+        border: 0px;
+        height: 2.2rem;
+        font-size: 1.2rem;
+        margin-bottom: 1rem;
+    }
+    .dash-gener{
+        margin-bottom: 1rem;
+    }
+    .dash-gen{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+        align-items: center;
+    }
+    .dash-gen input{
+        color: var(--azuloscuro);
+    }
+    .dash-cont a{
+        display: flex;
+        justify-content:center;
+        align-items: center;
+        background-color: var(--negro);
+        font-size: 1.2rem;
+        width: 18rem;
+        height: 3rem;
+        border: 0px;
+        border-radius: 5px;
+        color: var(--blanco);
+    }
+
+    .dash a{
+        text-decoration: none;
+    }
+  
+  }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media screen and (min-width: 1000px){
 
   .dashbody{
     display: flex;
@@ -531,6 +741,9 @@ margin-bottom: 3rem;
 
   .dash-navvert{
       width: 20rem;
+  }
+      .dash-navvertv2{
+      display: none;
   }
   .dash-navvert1{
       display: flex;
@@ -587,6 +800,11 @@ margin-bottom: 3rem;
       background-repeat: no-repeat;
   }
   
+
+  .dash-dashcontv2{
+    display: none;
+  }
+
   .dash-dashcont{
       background-color: #cfcfcfe3;
       margin: 3rem;
@@ -699,11 +917,96 @@ margin-bottom: 3rem;
   }
   }
 
+
+
+
+
+
+
  /*----------------------------------------------------------------Login----------------------------------------------------------------*/
 
- 
+
+
+
+ @media screen and (max-width: 1000px){
+
+  .loginbody{
+    display: flex;
+    justify-content: center;
+    font-family: 'Roboto', sans-serif;
+    font-size: 16px;
+    background: url(../img/FondoForm.jpg );
+}
+.login-main{ 
+    margin: 9rem;
+    background-color:rgba(51, 121, 183, 0.918);
+    height: 40rem;
+    width: 40rem;
+    border-radius: 10px;
+    box-shadow: 10px 12px 4px -9px rgba(0,0,0,0.62);
+    -webkit-box-shadow: 10px 12px 4px -9px rgba(0,0,0,0.62);
+    -moz-box-shadow: 10px 12px 4px -9px rgba(0,0,0,0.62);
+}
+.login-main img{
+    width: 40rem;
+}
+
+.login-icon{
+    display: flex;
+    justify-content: center;
+    color: var(--Magenta);
+    font-size: 6rem;
+    margin-top: -4.5rem;
+}
+.login-icon i{
+    background: radial-gradient(white 60%, transparent 50%);
+}
+.login-form{
+display: flex;
+justify-content: center;
+}
+.login-form1{
+    margin-top: 2rem;
+    display: flex;
+    flex-direction: column;
+    width: 27rem;
+    height: 18rem;
+    color: var(--blanco);
+}
+.login-form input{
+    border-radius: 3px;
+    border: 0px;
+    height: 2.2rem;
+    font-size: 1.2rem;
+}
+.login-form1 a{
+    text-align: center;
+    margin: 2rem auto;
+    background-color: var(--negro2);
+    font-size: 1.2rem;
+    width: 27rem;
+    border: 0px;
+    border-radius: 3px;
+    color: var(--blanco);
+}
+.login-msg{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    color: var(--blanco);
+}
+
+.login-msg{
+  display: none;
+}
+ }
+
+
+
+
+
 /*Resolución notebooks*/
-@media screen and (min-width: 1024px){
+@media screen and (min-width: 1000px){
   .loginbody{
       display: flex;
       justify-content: center;
@@ -779,9 +1082,199 @@ margin-bottom: 3rem;
   }
   }
 
+
+
+
+
+
+
+
+
+
+
   /* ----------------------------------------------------------------Formulario------------------------------------------------------------*/
-  /*Resolución notebooks*/
-@media screen and (min-width: 1024px){
+
+
+  @media screen and (max-width: 1000px){
+
+  .form-main{
+      background: url(../img/FondoForm.jpg );
+      background-position: center;
+      flex-direction: column;
+      height: 110rem;
+  }
+  .form-nav{
+    display: flex;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+      flex-direction: column;
+      justify-content: center;
+      margin-left: auto;
+      align-items: center;
+      width: auto;
+      background-color:rgba(51, 121, 183, 0.918);
+      color: var(--blanco);
+  
+  }
+  .form-nav h1{
+margin-left: auto;
+margin-right: 1rem;
+  }
+  .form-main nav{
+display: none;
+
+}
+  .form-main img{
+      width: 25rem;
+      margin-bottom: 2rem;
+  }
+  
+  .form-main h1{
+  font-size: 3rem;
+  }
+  
+  .form-dashcontv2{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #e0e0e0e3;
+    margin: auto;
+    width: auto;
+    height: 92rem;
+    margin: 5rem;
+}
+.form-dashcont{
+display: none;
+}
+  .form-tittle h2{
+      font-size: 3rem;
+      margin-top: 1rem;
+      margin-left: 4rem;
+   }
+  
+  .form-cont{
+      display: flex;
+      flex-direction: column;
+      margin-top: 1rem;
+      width: 28rem;
+      height: 37rem;
+  
+  }
+  .form-cont input{
+      border-radius: 3px;
+      border: 0px;
+      height: 2.2rem;
+      font-size: 1.2rem;
+      margin-bottom: 1rem;
+  }
+  .form-cont select{
+      border-radius: 3px;
+      border: 0px;
+      height: 2.2rem;
+      font-size: 1.2rem;
+      margin-bottom: 1rem;
+  }
+  
+  .form-gener{
+      margin-bottom: 1rem;
+  }
+  .form-gen{
+      display: flex;
+      flex-direction: row;
+      justify-content: space-around;
+      align-items: center;
+  }
+  
+  .form-tc{
+      display: flex;
+      justify-content: center;
+      font-size: 0.8;
+  }
+  .form-tc h1{
+    margin-left: 6rem;
+      color: var(--negro2);
+  }
+  .form-but{
+      display: flex;
+      justify-content: center;
+      margin-top: 1rem; 
+      margin-right: auto;
+      margin-left: 6rem;
+      align-self: flex-end;  
+  }
+  .form-but a{
+      text-align: center;
+      background-color: var(--negro);
+      font-size: 1.7rem;
+      width: 16rem;
+      height: 4rem;
+      border: 0px;
+      border-radius: 3px;
+      color: var(--blanco);
+  }
+
+  .form-main a{
+      text-decoration: none;
+  }
+  /* Inicio modal */
+  .form-top-modal
+  {
+      width: 100%;
+      border-radius: 9px 9px 0 0;
+      text-align: center;
+      padding: 2rem 0;
+      margin-bottom: 20px;
+      color: white;
+      background-color: #184e7d;
+  }
+  .form-bottom-modal
+  {
+      margin-bottom: 15px;
+      padding: 0 1rem;
+  }
+  #close-buttom
+  {
+      margin-bottom: 10px;
+      text-align: center;
+      background-color: black;
+      color: white;
+      padding: 10px;
+      border-radius: 2px;
+      width: 100px;
+  }
+  .form-modal-contenido{
+      align-items: center;
+      display: flex;
+      flex-direction: column;
+      background-color:rgb(255, 255, 255);
+   
+      font-size: 20px;
+    }
+    .form-modal{
+      background-color: rgba(0,0,0,.8);
+      position:fixed;
+      height: 100%;
+      width: 100%;
+      top:0;
+      left:0;
+      opacity:0;
+      pointer-events:none;
+      transition: all 1s;
+    }
+    #miModal:target{
+      opacity:1;
+      pointer-events:auto;
+    }
+  
+  /* Fin modal */
+  }
+
+
+
+
+
+  
+@media screen and (min-width: 1000px){
   .form-main{
       display: flex;
       background: url(../img/FondoForm.jpg );
@@ -799,6 +1292,10 @@ margin-bottom: 3rem;
       color: var(--blanco);
   
   }
+
+  .form-nav{
+    display: none;
+  }
   .form-main img{
       width: 25rem;
       margin-bottom: 2rem;
@@ -815,6 +1312,9 @@ margin-bottom: 3rem;
       height: 53rem;
       border-radius: 10px;
   }
+  .form-dashcontv2{
+    display: none;
+}
   .form-tittle h2{
       font-size: 3rem;
       margin-left: 33rem;
