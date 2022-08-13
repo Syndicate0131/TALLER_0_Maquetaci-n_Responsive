@@ -227,7 +227,8 @@ display: none;
 
 .index-opinion{
   display: flex;
-  flex-direction: row;
+  flex-direction: column;
+
 
 }
 .index-opisep {
@@ -241,28 +242,17 @@ margin-bottom: 3rem;
 }
 
 .index-nue1{
-  background: url(../img/opi1.png);
-  background-size: cover;
-  background-position: center;
-  background-repeat: no-repeat;
-  height: 10rem;
-  width: 4rem;
-  margin-top: -3rem;
-  margin-bottom: 1rem;
-  
+margin: auto;
 }
 .index-nue2{
-  background: url(../img/opi2.png);
-  background-size: cover;
-  background-position: center;
-  background-repeat: no-repeat;
-  height: 10rem;
-  width: 25rem;
-  margin-left: 0.5rem;
-  margin-right: 0.5rem;
-  margin-bottom: 1rem;
-  margin-top: -3rem;
+  margin: auto;
 }
+.index-nue1 img{
+  height: 10rem;
+  }
+  .index-nue2 img{
+  height: 10rem;
+  }
 /*Footer*/
 .index-fot2{
   padding: 1rem;
@@ -482,14 +472,12 @@ margin-bottom: 3rem;
 }
 
 .index-nue1{
-  background: url(../img/opi1.png);
   height: 16rem;
   width: 25rem;
   margin: 3rem;
   margin-top: -3rem;
 }
 .index-nue2{
-  background: url(../img/opi2.png);
   height: 16rem;
   width: 25rem;
   margin: 3rem;
