@@ -24,7 +24,6 @@ body{
   h1,h2,h3,h4,h5{
     font-family: 'Marcellus', serif;
 }
-
 nav {
     grid-area: nav;
     display: grid;
@@ -33,8 +32,8 @@ nav {
         "menu";
     font-family: 'Marcellus', serif;
     font-size: 1.3em;
-    position: fixed;
 width: 100%;
+margin: auto;
 z-index: 100;
 }
 .logo {
@@ -93,17 +92,247 @@ nav a:hover {
     font-family: 'Marcellus', serif;
     color: var(--blanco);
 }
-#banner {
-    background-image: url('../img/index//slide1.jpg');
-    background-size: cover;
-    background-position: 50% 50%;
-    min-height: 400px;
-    margin-top: 60px;
-}
 /*Resolución tabletas*/
-@media screen and (min-width:768px) {
-   
+@media screen and (max-width:1000px) {
+@media screen and (min-width:300px) {
 
+    body {
+        display: grid;
+        grid-template:
+            "nav" auto
+            "msg" auto
+            "desc" auto
+            "features" auto
+            "ubicanos" auto
+            "nuestros" auto
+            "fot2" auto
+    }
+.fot1{
+    display: none;
+}
+
+     input:checked ~ * .menu {
+        display: none;
+          }
+
+    .msg{    
+      background: url(../img/slide1.jpg);
+      height: 15rem;
+      background-size: cover;
+      background-position: center;
+      background-repeat: no-repeat;
+      font-size: 0.6rem;
+
+    }
+    .msg h1{
+        color: var(--blanco);
+        background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(0,0,0,1) 0%, rgba(0,0,0,0.6881127450980392) 0%, rgba(178,179,179,0.15309873949579833) 91%);
+        margin-top: 12rem;
+      }
+
+            /*Mensaje*/
+            .desc{
+                color: var(--blanco);
+                height: 16rem;
+                color: var(--negro2);
+              }
+              .desc1{
+                display: none;
+              }
+              .desc p{
+                margin: 5%;
+            
+                }
+            
+                .logod{
+            display: none;
+              }
+/*Razones*/
+#features {
+    background: url(../img/bg-features.png);
+    color: white;
+    padding-top: 1rem;
+    background-size: cover;
+    display: grid;
+    grid-template-columns: auto auto auto auto ;
+    
+}
+
+.features-title {
+    background-color: rgba(0, 0, 0, 0.35);
+    background-size: cover;
+    text-align: center;
+    padding: 0.5rem;
+    font-size: 1.5em;
+    grid-column-start: 1;
+    grid-column-end: 5;
+}
+
+.features-description {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    grid-template-columns: auto auto auto auto ;
+
+}
+
+.feature {
+    width: 25%;
+    min-width: 180px;
+    max-width: 230px;
+    margin: 0.8rem;
+    padding: 1rem;
+    display: grid;
+    grid-template-rows: auto auto auto auto ;
+    justify-content: center;
+    align-items: center;
+    border-radius: 5px;
+}
+
+.feature i {
+    font-size: 2.2em;
+    margin-bottom: 1.5rem;
+}
+
+.feature-blue {
+    background-color: #00325eae;
+}
+
+.feature-black {
+    background-color: rgba(0, 0, 0, 0.59);
+}
+
+.ubi{
+    margin: auto;
+  height: 10rem;
+  font-size: 2rem;
+}
+.mapa{
+  height: 30rem;
+}
+.mapa iframe{
+  width: 100%;
+  height: 100%;
+  }
+  .ubi2{
+  height: 5rem;
+  font-size: 1.3rem;
+  margin-bottom: 1rem;
+}
+.ubi2 h2{
+  border-bottom:2px solid var(--azuloscuro);
+}
+.ubi2 h3{
+margin-top: 4rem;
+  }
+hr{
+  color: var(--negro2);
+}
+
+.nues{
+    background-color: var(--negro2);
+    height: 10rem;
+    font-size: 0.9rem;
+  }
+  .nues h1{
+    color: var(--blanco);
+    margin: 1rem;
+    margin-bottom: 4rem;
+  }
+  
+
+.opinion{
+    margin-left:3rem;
+    margin-top: -2rem;
+    justify-content: space-around;
+  }
+  .opisep {
+  display: flex;
+  justify-content: center;
+  color: var(--negro);
+  font-size: 4rem;
+  margin-top: -3rem;
+  margin-bottom: 3rem;
+  }
+  
+  .nue1{
+    margin: auto;
+    }
+    .nue2{
+      margin: auto;
+    }
+    .nue1 img{
+      height: 10rem;
+      }
+      .nue2 img{
+      height: 10rem;
+      }
+
+      /*Footer*/
+.fot2{
+    padding: 1rem;
+    background-color:var(--negro2);
+    color: var(--blanco);
+    justify-content: space-around;
+  
+  }
+  .fi1{
+  
+    border-bottom:2px solid var(--negro);
+  }
+  .fi1 i{
+    margin: 1rem;
+  }
+  .fi2{
+    margin-top: 1rem;
+
+  
+    border-bottom:2px solid var(--negro);
+  }
+  .fi3{
+
+    width: 5rem;
+    margin-top: 1rem;
+  }
+  .fot1{
+    display: none;
+  }
+}
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*------------------------------------------------------------------------------------------------GRANDE----------------------------------------------------------------*/
+/*Resolución tabletas*/
+@media screen and (min-width:1001px) {
+
+    body {
+        display: grid;
+        grid-template:
+            "nav" auto
+            "msg" auto
+            "desc" auto
+            "features" auto
+            "ubicanos" auto
+            "nuestros" auto
+            "fot2" auto
+    }
+    
+input{
+    display: none;
+}
 nav{
     background-color: var(--negro2);
     grid-template-columns: 200px auto;
@@ -143,5 +372,219 @@ nav a:hover {
     background-color: var(--azuloscuro);
     align-self: center;
 }
+   
+
+
+ nav{
+    display: grid;
+    width: 100%;
+    justify-content: space-between;
+    background-color: var(--negro2);
+}
+.logo{
+    padding: 1rem;
+}
+.logo img{
+    width: 100%;
+    max-width: 180px;       
+}
+.logo i{ 
+    display: none;
+} 
+.menu{
+    background-color: var(--negro2);
+
+}
+.menu-hr{ 
+    display: none;
+}
+.navbar-button{
+    background-color:var(--azuloscuro);
+}     
+
+  /*Mensaje con foto*/
+  .msg{    
+  background: url(../img/slide1.jpg);
+  background-size: 100%;
+  height: 44rem;
+  font-size: 1.5rem;
+}
+.msg h1{
+  color: white;
+  margin-top: 40rem;
+background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(0,0,0,1) 0%, rgba(0,0,0,0.6881127450980392) 0%, rgba(178,179,179,0.15309873949579833) 91%);
+}
+
+/*Mensaje*/
+.desc2{
+  display: none;
+}
+.desc{
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  color: var(--blanco);
+  height: 30rem;
+  display: flex;
+  justify-content: space-around;
+  color: var(--negro2);
+}
+
+.desc h3{
+  margin-top: 3%;
+  margin-bottom: 5%;
+  width: 60rem;
+  }
+
+
+  .logod{
+  margin: 5%;
+}
+/*Razones*/
+#features{
+  background: url(../img/bg-features.png);
+  color: var(--fondo);
+  padding-top: 1rem;
+  height: 15rem;
+  }
+
+.features-title{
+  background-color: rgba(0,0,0,0.35);
+  text-align: center;
+  padding: 0.5rem;
+  font-size: 1.5em;
+  margin-bottom: 1rem;
+}
+
+.features-description{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+
+.feature{
+  width: 25%;
+  min-width: 180px;
+  max-width: 230px;
+  margin: 0.8rem;
+  padding: 1rem;
+  display: grid;
+  grid-template-columns: auto auto auto auto ;
+  justify-content: center;
+  align-items: center;
+  border-radius: 5px;
+}
+
+.feature i{
+  font-size: 2.2em;
+  margin-bottom: 1.5rem;
+}
+
+
+.feature-blue{
+  background-color: #00325eae;
+}
+
+.feature-black{
+  background-color: rgba(0,0,0,0.59);
+}
+/*Ubicación*/
+.ubi{
+height: 10rem;
+text-align: center;
+margin: 1rem;
+font-size: 2rem;
+}
+.mapa{
+height: 30rem;
+}
+.mapa iframe{
+width: 100%;
+height: 100%;
+}
+.ubi2{
+height: 5rem;
+text-align: center;
+font-size: 1.3rem;
+margin-bottom: 1rem;
+}
+.ubi2 h2{
+border-bottom:2px solid var(--azuloscuro);
+}
+.index hr{
+color: var(--negro2);
+}
+/*Nuestros usuarios*/
+.nues{
+height: 10rem;
+display: flex;
+background-color: var(--negro2);
+justify-content: center;
+align-items: center;
+font-size: 1.5rem;
+}
+.nues h1{
+color: var(--blanco);
+}
+
+.opinion{
+display: grid;
+grid-template-columns: auto auto auto  ;
+justify-content: space-around;
+}
+.opisep {
+margin-left: 54rem;
+color: var(--negro);
+font-size: 4rem;
+margin-top: -3rem;
+margin-bottom: 3rem;
+}
+
+.nue1{
+height: 16rem;
+width: 25rem;
+margin: 3rem;
+margin-top: -3rem;
+}
+.nue2{
+height: 16rem;
+width: 25rem;
+margin: 3rem;
+margin-top: -3rem;
+}
+/*---------------Footer------------*/
+
+.fot1{
+    display: grid;
+    grid-template-columns: auto auto auto  ;
+background-color:var(--negro2);
+color: var(--blanco);
+font-size: 1.2rem;
+justify-content: space-around;
+
+}
+.fi1{
+margin: 4rem;
+width: 20rem;
+height: 20 rem;
+}
+.fi1 i{
+margin: 1rem;
+}
+.fi2{
+margin: 4rem;
+width: 20rem;
+height: 20 rem;
+}
+.fi2 p{
+margin-bottom: 5rem;
+}
+.fot2{
+display: none;
+}
+.index a{
+text-decoration: none;
+}  
+
 
 }

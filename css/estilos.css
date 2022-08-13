@@ -292,6 +292,9 @@ margin: auto;
 
 /*Resolución notebooks*/
 @media screen and (min-width: 1024px){
+  .index input{
+    display:none;
+  }
   /*Nav*/
    .index nav{
       display: flex;
